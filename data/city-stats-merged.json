@@ -1,0 +1,230 @@
+[
+  {
+    "city": "Bandar Seri Begawan",
+    "country": "Brunei Darussalam",
+    "population": 50000,
+    "area_km2": 100.36
+  },
+  {
+    "city": "Battambang",
+    "country": "Cambodia",
+    "population": 119251,
+    "area_km2": 293.0
+  },
+  {
+    "city": "Phnom Penh",
+    "country": "Cambodia",
+    "population": 2352851,
+    "area_km2": 679.0
+  },
+  {
+    "city": "Siem Reap",
+    "country": "Cambodia",
+    "population": 245494,
+    "area_km2": null
+  },
+  {
+    "city": "Sihanoukville City",
+    "country": "Cambodia",
+    "population": 73036,
+    "area_km2": 195.9
+  },
+  {
+    "city": "Banyuwangi",
+    "country": "Indonesia",
+    "population": 108617,
+    "area_km2": null
+  },
+  {
+    "city": "Jakarta",
+    "country": "Indonesia",
+    "population": 10684946,
+    "area_km2": 660.98
+  },
+  {
+    "city": "Makassar",
+    "country": "Indonesia",
+    "population": 1474393,
+    "area_km2": 175.77
+  },
+  {
+    "city": "Sumedang",
+    "country": "Indonesia",
+    "population": 187795,
+    "area_km2": 125.32
+  },
+  {
+    "city": "Denpasar",
+    "country": "Indonesia",
+    "population": 670210,
+    "area_km2": 125.98
+  },
+  {
+    "city": "Semarang",
+    "country": "Indonesia",
+    "population": 1694740,
+    "area_km2": 373.78
+  },
+  {
+    "city": "Luang Prabang",
+    "country": "Lao PDR",
+    "population": 55027,
+    "area_km2": null
+  },
+  {
+    "city": "Vientiane",
+    "country": "Lao PDR",
+    "population": 840940,
+    "area_km2": 3920.0
+  },
+  {
+    "city": "Johor Bahru",
+    "country": "Malaysia",
+    "population": 858118,
+    "area_km2": 373.18
+  },
+  {
+    "city": "Kuala Lumpur",
+    "country": "Malaysia",
+    "population": 2075600,
+    "area_km2": 243.0
+  },
+  {
+    "city": "Kota Kinabalu",
+    "country": "Malaysia",
+    "population": 601000,
+    "area_km2": 351.0
+  },
+  {
+    "city": "Kuching",
+    "country": "Malaysia",
+    "population": 514658,
+    "area_km2": 450.02
+  },
+  {
+    "city": "Ipoh",
+    "country": "Malaysia",
+    "population": 759952,
+    "area_km2": 643.0
+  },
+  {
+    "city": "Putrajaya",
+    "country": "Malaysia",
+    "population": 119700,
+    "area_km2": 49.0
+  },
+  {
+    "city": "Seberang Perai",
+    "country": "Malaysia",
+    "population": 946092,
+    "area_km2": 748.0
+  },
+  {
+    "city": "Nay Pyi Taw",
+    "country": "Myanmar",
+    "population": 924608,
+    "area_km2": 7054.37
+  },
+  {
+    "city": "Mandalay",
+    "country": "Myanmar",
+    "population": 1726889,
+    "area_km2": 163.84
+  },
+  {
+    "city": "Yangon",
+    "country": "Myanmar",
+    "population": 5160512,
+    "area_km2": 598.75
+  },
+  {
+    "city": "Cebu City",
+    "country": "Philippines",
+    "population": 2454000,
+    "area_km2": 315.0
+  },
+  {
+    "city": "Davao City",
+    "country": "Philippines",
+    "population": 1232958,
+    "area_km2": 293.78
+  },
+  {
+    "city": "Manila",
+    "country": "Philippines",
+    "population": 13484482,
+    "area_km2": 42.34
+  },
+  {
+    "city": "Cauayan City",
+    "country": "Philippines",
+    "population": 143539,
+    "area_km2": null
+  },
+  {
+    "city": "Singapore",
+    "country": "Singapore",
+    "population": 5866139,
+    "area_km2": 744.3
+  },
+  {
+    "city": "Bangkok",
+    "country": "Thailand",
+    "population": 8305218,
+    "area_km2": 1568.74
+  },
+  {
+    "city": "Chonburi",
+    "country": "Thailand",
+    "population": 27815,
+    "area_km2": 3.5
+  },
+  {
+    "city": "Phuket",
+    "country": "Thailand",
+    "population": 77610,
+    "area_km2": null
+  },
+  {
+    "city": "Chiang Mai",
+    "country": "Thailand",
+    "population": 127240,
+    "area_km2": 40.22
+  },
+  {
+    "city": "Khon Kaen",
+    "country": "Thailand",
+    "population": 114459,
+    "area_km2": 46.0
+  },
+  {
+    "city": "Rayong",
+    "country": "Thailand",
+    "population": 64256,
+    "area_km2": 16.95
+  },
+  {
+    "city": "Da Nang",
+    "country": "Viet Nam",
+    "population": 3065628,
+    "area_km2": 11859.59
+  },
+  {
+    "city": "Ha Noi",
+    "country": "Viet Nam",
+    "population": 8807523,
+    "area_km2": 3359.84
+  },
+  {
+    "city": "Ho Chi Minh City",
+    "country": "Viet Nam",
+    "population": 14002598,
+    "area_km2": 6781.0
+  },
+  {
+    "city": "Dili",
+    "country": "Timor-Leste",
+    "population": 277488,
+    "area_km2": 178.62
+  }
+]

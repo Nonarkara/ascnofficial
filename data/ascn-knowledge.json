@@ -1,0 +1,750 @@
+{
+  "meta": {
+    "title": "ASCN Knowledge Layer",
+    "purpose": "Narrative and structured reference synthesized from official ASEAN documents and a 14-dimension deep-research brief, powering the ASCN open platform.",
+    "research_date": "2025-07",
+    "sources_note": "Compiled from ASCN Concept Note, ASEAN Smart Cities Framework, Consolidated SCAPs, M&E Reports 2022-2025, Planning Guidebook, Singapore & Thailand Chairmanship reports, and 500+ secondary citations.",
+    "as_of": "2026-01"
+  },
+  "summary": {
+    "cities": 38,
+    "countries": 11,
+    "projects": 134,
+    "ongoing": 108,
+    "completed": 18,
+    "planning": 8,
+    "established": "28 April 2018",
+    "established_event": "32nd ASEAN Summit, Singapore",
+    "framework_adopted": "November 2018, 33rd ASEAN Summit",
+    "mission": "Improve the lives of ASEAN citizens using technology as an enabler, through an inclusive approach that respects human rights and fundamental freedoms.",
+    "the_gap": "134 projects tracked across 38 cities since 2018. No public platform has asked how the network is performing against its own goals. This is the first."
+  },
+  "objectives": [
+    "Facilitate cooperation on smart city development through best-practice sharing and joint frameworks.",
+    "Catalyse bankable projects with the private sector through matchmaking platforms.",
+    "Secure funding and support from ASEAN's external partners through twinning arrangements."
+  ],
+  "stance": {
+    "headline": "Read the market. Respect the behaviour. Choose for yourselves.",
+    "body": "ASEAN does not need to import a ready-made smart-city template — however prestigious its origin — on the assumption that the region cannot think for itself. The work is to build ASEAN's own culture of open innovation: healthy competition, public–private partnership, and open data that let each city adopt what genuinely serves its people. This platform exists to make that judgement evidence-based — a discerning region, not a captive market."
+  },
+  "perspective": {
+    "kicker": "Perspective · The ASEAN, 2021",
+    "author": "Non Arkaraprasertkul, PhD",
+    "role": "Senior Expert, Smart City Promotion — Digital Economy Promotion Agency (DEPA), Thailand",
+    "credentials": "Architect by training; doctorate in anthropology, Harvard University.",
+    "source": "The ASEAN Magazine, Issue 14 — \"The Road to Sustainable Cities\"",
+    "year": 2021,
+    "url": "https://theaseanmagazine.asean.org/article/non-arkaraprasertkul-phd/",
+    "framing": "Why this platform reads markets and human behaviour, not just project counts. An essay from 2021 that still sets the terms.",
+    "pull_quote": "Without data, decisions are made based on precedents, heuristics and beliefs, which are only useful as long as those decisions deal with closed-ended problems.",
+    "points": [
+      {
+        "h": "A viable, competitive market introduces and scales technology",
+        "t": "Not mandates. One Laptop per Child faltered where the market later put powerful smartphones in children's hands at a fraction of the cost."
+      },
+      {
+        "h": "Inclusivity optimises the game",
+        "t": "More cities connected means more data, and better services for everyone. Equity and efficiency are synergistic, not a trade-off."
+      },
+      {
+        "h": "Trust is the core of every transaction",
+        "t": "Cybersecurity and a cultural shift in how we treat privacy are preconditions for digital connectivity, not afterthoughts."
+      },
+      {
+        "h": "Smart cities answer the city's own ignorance",
+        "t": "Data replaces precedent and heuristic — the only way to handle the open-ended problems cities actually face."
+      }
+    ]
+  },
+  "framework": {
+    "name": "ASEAN Smart Cities Framework (2018)",
+    "status": "Non-binding guide adopted at the 33rd ASEAN Summit, November 2018.",
+    "strategic_outcomes": [
+      "Competitive Economy",
+      "Sustainable Environment",
+      "High Quality of Life"
+    ],
+    "urban_systems": [
+      "Integrated Master Planning and Development",
+      "Dynamic and Adaptive Urban Governance"
+    ],
+    "enablers": [
+      "Technological and Digital Solutions",
+      "Partnership and Funding"
+    ],
+    "focus_areas": [
+      {
+        "name": "Civic & Social",
+        "share": 24,
+        "blurb": "Digital identity, citizen services, participation, e-government, inclusion."
+      },
+      {
+        "name": "Built Infrastructure",
+        "share": 25,
+        "blurb": "Transport, housing, integrated master planning, mobility, rail and bus systems."
+      },
+      {
+        "name": "Quality Environment",
+        "share": 19,
+        "blurb": "Water, wastewater, waste, air quality, climate resilience, green growth."
+      },
+      {
+        "name": "Safety & Security",
+        "share": 14,
+        "blurb": "Emergency response, surveillance, disaster preparedness, public safety."
+      },
+      {
+        "name": "Industry & Innovation",
+        "share": 12,
+        "blurb": "Innovation districts, entrepreneurship, digital economy, industrial smart parks."
+      },
+      {
+        "name": "Health & Well-being",
+        "share": 6,
+        "blurb": "Telemedicine, health screening, smart hospitals, care systems."
+      }
+    ]
+  },
+  "governance": {
+    "model": "Dual-leadership: an annually rotating Chair for political direction, and a multi-year Shepherd for institutional continuity.",
+    "decision_making": "Consensus-based, reflecting the ASEAN Way. The Framework is explicitly non-binding with no enforcement mechanism. New cities are admitted by consensus at Annual Meetings.",
+    "reporting_chain": "Joint Consultative Meeting (JCM) → ASEAN Coordinating Council (ACC) → ASEAN Summit.",
+    "partnerships_note": "Partnerships are bilateral (city-to-external-partner), not centrally managed.",
+    "chairs": [
+      {
+        "year": "2018",
+        "chair": "Singapore",
+        "note": "Founding chair; launched the network."
+      },
+      {
+        "year": "2019",
+        "chair": "Thailand"
+      },
+      {
+        "year": "2020",
+        "chair": "Brunei",
+        "note": "Virtual format (COVID-19)."
+      },
+      {
+        "year": "2021-22",
+        "chair": "Cambodia",
+        "note": "Extended term during COVID-19."
+      },
+      {
+        "year": "2023",
+        "chair": "Indonesia"
+      },
+      {
+        "year": "2024",
+        "chair": "Lao PDR"
+      },
+      {
+        "year": "2025",
+        "chair": "Malaysia",
+        "note": "ASCAP 2026-2035 advanced."
+      },
+      {
+        "year": "2026",
+        "chair": "Philippines",
+        "note": "Current chair."
+      }
+    ],
+    "shepherds": [
+      {
+        "term": "2019-2023",
+        "country": "Singapore",
+        "note": "Inaugural shepherd."
+      },
+      {
+        "term": "2023-2027",
+        "country": "Indonesia",
+        "note": "Current shepherd; term extended for continuity."
+      }
+    ],
+    "challenges": [
+      "Multi-level bureaucracy between national and city governments.",
+      "Fiscal disparities between Singapore and less-developed members.",
+      "Policy capacity gaps in smaller cities.",
+      "ASEAN Way constraints prevent enforcement of standards.",
+      "No peer review or diagnostic feedback mechanism (Costoya, 2022)."
+    ]
+  },
+  "ascap": {
+    "name": "ASEAN Smart City Action Plan (ASCAP) 2026-2035",
+    "adopted": "September 2025",
+    "note": "The network's first 10-year strategic plan, aligned with ASEAN Community Vision 2045 (May 2025) and the ASEAN Connectivity Strategic Plan 2026-2035.",
+    "pillars": [
+      "Digital Transformation & Smart Infrastructure",
+      "Sustainable & Green Urban Development",
+      "Smart Housing & Health",
+      "Smart Mobility",
+      "Resilience & Disaster Preparedness",
+      "Digital Governance",
+      "Innovation & Economic Growth",
+      "Rural-Village Collaboration"
+    ]
+  },
+  "history": {
+    "milestones": [
+      {
+        "year": "2018",
+        "title": "Network established",
+        "text": "Launched at the 32nd ASEAN Summit (28 April, Singapore) with 26 pilot cities. Framework adopted at the 33rd Summit in November."
+      },
+      {
+        "year": "2019",
+        "title": "Thailand chair year",
+        "text": "Implementation-focused coordination; Singapore begins its term as inaugural Shepherd."
+      },
+      {
+        "year": "2020-22",
+        "title": "Pandemic continuity",
+        "text": "Virtual meetings under Brunei and Cambodia chairs; the Shepherd model keeps momentum across disruption."
+      },
+      {
+        "year": "2022",
+        "title": "M&E baseline",
+        "text": "First consolidated Monitoring & Evaluation report establishes a 77-project baseline across the roster."
+      },
+      {
+        "year": "2023",
+        "title": "Indonesia shepherdship",
+        "text": "Roster grows (Chiang Mai, Khon Kaen, Rayong); investment focus sharpens."
+      },
+      {
+        "year": "2024",
+        "title": "Financing toolkit",
+        "text": "ASEAN Smart City Financing Toolkit launched in Jakarta; portfolio reaches 108 projects; roster at 31 cities."
+      },
+      {
+        "year": "2025",
+        "title": "Malaysia chair & ASCAP",
+        "text": "134 projects across 35+ cities; ASCAP 2026-2035 adopted with eight pillars; aligned to ASEAN Community Vision 2045."
+      },
+      {
+        "year": "2026",
+        "title": "38 cities, 11 countries",
+        "text": "Dili (Timor-Leste) joins as the first city from ASEAN's 11th member; Philippines assumes the chair."
+      }
+    ],
+    "membership_evolution": [
+      {
+        "year": 2018,
+        "added": "26 pilot cities",
+        "where": "10 ASEAN Member States",
+        "total": 26
+      },
+      {
+        "year": 2023,
+        "added": "Chiang Mai, Khon Kaen, Rayong",
+        "where": "Thailand",
+        "total": 29
+      },
+      {
+        "year": 2024,
+        "added": "Sumedang, Sihanoukville",
+        "where": "Indonesia, Cambodia",
+        "total": 31
+      },
+      {
+        "year": 2025,
+        "added": "Ipoh, Putrajaya, Seberang Perai, Cauayan City, Denpasar, Semarang",
+        "where": "Malaysia, Philippines, Indonesia",
+        "total": 35
+      },
+      {
+        "year": 2026,
+        "added": "Dili",
+        "where": "Timor-Leste",
+        "total": 38
+      }
+    ],
+    "annual_meetings": [
+      {
+        "n": "1st",
+        "year": 2018,
+        "host": "Singapore",
+        "outcome": "Framework adoption, SCAP endorsement (World Cities Summit)."
+      },
+      {
+        "n": "2nd",
+        "year": 2019,
+        "host": "Thailand",
+        "outcome": "Thailand Chairmanship report."
+      },
+      {
+        "n": "3rd",
+        "year": 2020,
+        "host": "Brunei",
+        "outcome": "Virtual format (COVID-19)."
+      },
+      {
+        "n": "4th",
+        "year": "2021-22",
+        "host": "Cambodia",
+        "outcome": "Extended during COVID-19."
+      },
+      {
+        "n": "5th",
+        "year": 2023,
+        "host": "Indonesia",
+        "outcome": "Indonesia shepherdship; investment focus."
+      },
+      {
+        "n": "6th",
+        "year": 2024,
+        "host": "Lao PDR",
+        "outcome": "ASUF 2024; financing toolkit progress."
+      },
+      {
+        "n": "7th",
+        "year": 2024,
+        "host": "Lao PDR",
+        "outcome": "7th Annual Meeting; ASCN Conference."
+      },
+      {
+        "n": "8th",
+        "year": 2025,
+        "host": "Malaysia",
+        "outcome": "ASCAP 2026-2035 discussion."
+      }
+    ],
+    "moments": [
+      {
+        "year": "2018",
+        "label": "1st ASCN — Singapore",
+        "photo": "Photos/ASCN-1st-2018-Singapore.jpg",
+        "caption": "Inaugural ASEAN Smart Cities Network Meeting, Marina Bay Sands — 8 July 2018. Singapore Prime Minister Lee Hsien Loong opens the network with 26 pilot cities."
+      },
+      {
+        "year": "2019",
+        "label": "2nd ASCN — Thailand",
+        "photo": "Photos/ASCN-2nd-2019-Thailand.jpg",
+        "caption": "ASCN Annual Meeting 2019, Bangkok — 23 August 2019. Thailand's chairmanship year under DEPA stewardship. Terms of Reference and M&E Framework adopted."
+      },
+      {
+        "year": "2024",
+        "label": "7th ASCN — Lao PDR",
+        "photo": "Photos/ASCN-7th-2024-Laos-panel.jpg",
+        "caption": "Panel Session 3: Forging Partnerships to Spearhead Smart and Sustainable Urban Development in ASEAN. 7th Annual Meeting and Discussion Conference, Luang Prabang — 30 July–1 August 2024."
+      },
+      {
+        "year": "2025",
+        "label": "Shanghai — Smart City World Congress",
+        "photo": "Photos/ASCN-Shanghai-2025-panel.jpg",
+        "caption": "Roundtable 1: Southeast Asia Special Session. Smart City World Congress, Shanghai — 2025. ASCN representatives at the table alongside delegates from Da Nang, Malaysia, and Indonesia."
+      },
+      {
+        "year": "2025",
+        "label": "8th ASCN — Malaysia",
+        "photo": "Photos/ASCN-8th-2025-KL-expert-talk.jpg",
+        "caption": "Smart Cities Expert Talk: Empowering Sustainable Urban Futures — Innovations and Collaborations for Smart Cities in ASEAN. 8th ASCN Annual Meeting, Kuala Lumpur — September 2025."
+      }
+    ],
+    "clc_quote": {
+      "text": "The ASEAN Smart Cities Network provides the sort of open platform needed to drive the smart city agenda. Cities find it quite useful, especially as Singapore has been able to draw in several first rate partners.",
+      "attribution": "Taimur Khilji",
+      "role": "United Nations Development Programme (UNDP)",
+      "source": "CLC / NUS — ASEAN Smart Cities Network founding publication, 2018"
+    }
+  },
+  "partnerships": [
+    {
+      "partner": "Japan",
+      "programme": "SmartJAMP",
+      "budget": "JPY 250B (~USD 2.4B)",
+      "coverage": "26 ASCN cities, 10 sectors",
+      "note": "Largest bilateral. JBIC loans (JPY 200B) + JOIN equity (JPY 50B); ~12 feasibility studies/yr; JASCA (312 corporate members). Funded Siem Reap SSDaP, the Planning Guidebook, Davao traffic study."
+    },
+    {
+      "partner": "Australia",
+      "programme": "AASCTF",
+      "budget": "AUD 20M (~USD 14M), 2019-2024",
+      "coverage": "24 cities, 8 countries",
+      "note": "Largest single-donor trust fund. Managed by ADB, implemented by Ramboll. Bronze/Silver/Gold intervention tiers; GESI strategy."
+    },
+    {
+      "partner": "South Korea",
+      "programme": "ASPP",
+      "budget": "ASEAN-Korea Cooperation Fund",
+      "coverage": "Regional",
+      "note": "ASEAN Smart City Professional Programme with Seoul National University; training + Master's scholarships (first graduates Feb 2026). Smart City Cooperation Centres in Hanoi, Bangkok, Jakarta."
+    },
+    {
+      "partner": "United States",
+      "programme": "USASCP / USTDA",
+      "budget": "Multiple grants",
+      "coverage": "Davao, Da Nang, Ho Chi Minh City",
+      "note": "US-ASEAN Smart Cities Partnership (2018); Water Smart Engagements (WiSE) city pairing; NSF innovation grants."
+    },
+    {
+      "partner": "China",
+      "programme": "ASEAN-China Smart City Cooperation",
+      "budget": "—",
+      "coverage": "8 Chinese cities paired with 26 ASCN cities",
+      "note": "Leaders' Statement (2019). Cities: Nanning, Xiamen, Hangzhou, Jinan, Kunming, Shenzhen, Nanjing, Chengdu. Less transparent implementation than Japan/Australia."
+    },
+    {
+      "partner": "European Union",
+      "programme": "Smart Green ASEAN Cities (SGAC)",
+      "budget": "EUR 200M+ regional support (2014-2020)",
+      "coverage": "Regional",
+      "note": "EU-funded, UNCDF-implemented; ASEAN-EU Plan of Action 2023-2027 includes explicit smart city commitments."
+    }
+  ],
+  "multilateral_partners": [
+    {
+      "org": "ADB",
+      "role": "Dominant financier",
+      "activity": "Loans, AASCTF management, ACGF, ASUS implementation."
+    },
+    {
+      "org": "World Bank",
+      "role": "Selected projects",
+      "activity": "Da Nang Sustainable City (USD 270M)."
+    },
+    {
+      "org": "UN-Habitat",
+      "role": "Technical assistance",
+      "activity": "ASEAN Sustainable Urbanisation Strategy; capacity building."
+    },
+    {
+      "org": "UNDP",
+      "role": "Technical assistance",
+      "activity": "IMAC development support (Johor)."
+    },
+    {
+      "org": "ERIA",
+      "role": "Research & knowledge",
+      "activity": "Digital twin workshops; inclusive smart city research."
+    },
+    {
+      "org": "ASEAN Secretariat",
+      "role": "Coordination",
+      "activity": "M&E reports, ASCN Annual Meetings, policy framework."
+    }
+  ],
+  "financing": {
+    "scale_note": "ASCN is a coordinating platform, not a funding pool. Southeast Asia's infrastructure need is ~USD 7 trillion by 2040 (OECD); 90%+ of emerging-Asia infrastructure is publicly financed. Individual ASCN projects range from USD 100K to USD 6.7B.",
+    "toolkit": "ASEAN Smart City Financing Toolkit launched November 2024 in Jakarta (Aus4ASEAN + Access Partnership): a web guide to financing options, case studies, and project-preparation support.",
+    "blended": "ASEAN Catalytic Green Finance Facility (ACGF): USD 300M GCF + USD 1.9B+ co-financing, ~USD 3.7B total project value; ~30 projects in pipeline.",
+    "challenges": [
+      "No central funding pool — ASCN coordinates, it does not finance.",
+      "City credit-rating and sovereign-ceiling constraints cap borrowing.",
+      "Mature PPP frameworks only in Malaysia, Thailand, Philippines.",
+      "Project-preparation gaps limit the bankable pipeline.",
+      "No systematic tracking of total investment flows."
+    ],
+    "big_projects": [
+      {
+        "project": "Bang Sue Grand Station",
+        "city": "Bangkok",
+        "investment_usd": 6700000000,
+        "funders": "Public-private"
+      },
+      {
+        "project": "Davao Public Transport Modernization",
+        "city": "Davao City",
+        "investment_usd": 1074000000,
+        "funders": "ADB, GCF, AIF"
+      },
+      {
+        "project": "Da Nang Sustainable City",
+        "city": "Da Nang",
+        "investment_usd": 270000000,
+        "funders": "World Bank"
+      },
+      {
+        "project": "Phuket Medical Hub",
+        "city": "Phuket",
+        "investment_usd": 188000000,
+        "funders": "Mixed"
+      },
+      {
+        "project": "Vientiane Wastewater Treatment",
+        "city": "Vientiane",
+        "investment_usd": 80000000,
+        "funders": "ADB"
+      },
+      {
+        "project": "Battambang Water & Sanitation",
+        "city": "Battambang",
+        "investment_usd": 50000000,
+        "funders": "ADB"
+      },
+      {
+        "project": "Luang Prabang Urban Environment",
+        "city": "Luang Prabang",
+        "investment_usd": 45000000,
+        "funders": "ADB"
+      },
+      {
+        "project": "Nay Pyi Taw Low-Cost Housing",
+        "city": "Nay Pyi Taw",
+        "investment_usd": 40000000,
+        "funders": "Government"
+      }
+    ]
+  },
+  "me_gap": {
+    "tracked": [
+      "Projects per city",
+      "Implementation stage (planning / on-going / completed)",
+      "Focus-area distribution",
+      "Narrative project descriptions"
+    ],
+    "not_tracked": [
+      "Outcome indicators (citizen impact, service quality)",
+      "Network-level quantitative KPIs",
+      "Financial metrics (cost, ROI)",
+      "Cross-city benchmarks or rankings",
+      "Citizen satisfaction / participation",
+      "Gender, equity & social inclusion (GESI)",
+      "Technology performance",
+      "Environmental impact"
+    ],
+    "method": "Pure city self-reporting to the ASEAN Secretariat, annually. No independent verification, no standardized forms; project completion is self-defined.",
+    "comparison": [
+      {
+        "network": "EU Cities Mission",
+        "approach": "Standardized indicators + independent assessment",
+        "maturity": "Much more advanced"
+      },
+      {
+        "network": "India Smart Cities Mission",
+        "approach": "Smart City Index, quantitative scoring",
+        "maturity": "More advanced"
+      },
+      {
+        "network": "Korea (U4SSC)",
+        "approach": "U4SSC KPI framework",
+        "maturity": "More advanced"
+      },
+      {
+        "network": "Thailand (DEPA)",
+        "approach": "National Smart City Index with indicators",
+        "maturity": "More advanced"
+      },
+      {
+        "network": "ASCN",
+        "approach": "Project counting with narrative descriptions",
+        "maturity": "Least advanced"
+      }
+    ]
+  },
+  "comparative": [
+    {
+      "dimension": "Cities",
+      "ascn": "38",
+      "india": "100",
+      "eu": "100 (target)",
+      "china": "~800 pilots"
+    },
+    {
+      "dimension": "Funding",
+      "ascn": "No central pool",
+      "india": "USD 17.7B central",
+      "eu": "EUR ~120M/yr",
+      "china": "USD 1.1T market"
+    },
+    {
+      "dimension": "Governance",
+      "ascn": "Voluntary / non-binding",
+      "india": "Top-down (SPVs)",
+      "eu": "Binding with EU funding",
+      "china": "Centralized"
+    },
+    {
+      "dimension": "M&E",
+      "ascn": "Project counting",
+      "india": "Smart City Index",
+      "eu": "Standardized indicators",
+      "china": "National metrics"
+    },
+    {
+      "dimension": "Approach",
+      "ascn": "People-centric, inclusive",
+      "india": "Area-based",
+      "eu": "Climate-focused",
+      "china": "Technology-first"
+    }
+  ],
+  "citizen_impact": [
+    {
+      "metric": "405,052 MSMEs registered",
+      "project": "JakPreneur platform",
+      "city": "Jakarta"
+    },
+    {
+      "metric": "1.2M+ registrants",
+      "project": "Go! Manila app",
+      "city": "Manila"
+    },
+    {
+      "metric": "6,973+ patients served (2024)",
+      "project": "Dottoro'ta telemedicine",
+      "city": "Makassar"
+    },
+    {
+      "metric": "8,000+ households benefitting",
+      "project": "Wastewater treatment",
+      "city": "Vientiane"
+    },
+    {
+      "metric": "5,000+ residents screened",
+      "project": "Public health monitoring",
+      "city": "Rayong"
+    },
+    {
+      "metric": "3,000 low-cost units completed",
+      "project": "Thu Kha Taw Win housing",
+      "city": "Nay Pyi Taw"
+    }
+  ],
+  "documents": [
+    {
+      "file": "01_ASCN_Concept_Note.pdf",
+      "title": "ASCN Concept Note",
+      "year": 2018,
+      "kind": "Foundation",
+      "note": "Origins, objectives, and the case for the network.",
+      "url": "https://asean.org/our-communities/asean-smart-cities-network/",
+      "size": "682 KB"
+    },
+    {
+      "file": "02_ASCN_Smart_Cities_Framework.pdf",
+      "title": "ASEAN Smart Cities Framework",
+      "year": 2018,
+      "kind": "Framework",
+      "note": "The non-binding guide: outcomes, systems, focus areas, enablers.",
+      "size": "166 KB"
+    },
+    {
+      "file": "03_ASCN_Consolidated_SCAPs.pdf",
+      "title": "Consolidated Smart City Action Plans",
+      "year": 2018,
+      "kind": "Action Plans",
+      "note": "Priority areas and action plans for the 26 pilot cities.",
+      "size": "2.0 MB"
+    },
+    {
+      "file": "04_ASCN_ME_Report_2022.pdf",
+      "title": "Monitoring & Evaluation Report 2022",
+      "year": 2022,
+      "kind": "M&E Report",
+      "note": "Baseline portfolio assessment.",
+      "url": "https://asean.org/wp-content/uploads/2022/10/2022-ASCN-ME-Report-Final.pdf",
+      "size": "1.5 MB"
+    },
+    {
+      "file": "05_ASCN_ME_Report_2023.pdf",
+      "title": "Monitoring & Evaluation Report 2023",
+      "year": 2023,
+      "kind": "M&E Report",
+      "note": "Second cycle; roster and portfolio growth.",
+      "size": "1.8 MB"
+    },
+    {
+      "file": "06_ASCN_ME_Report_2024.pdf",
+      "title": "Monitoring & Evaluation Report 2024",
+      "year": 2024,
+      "kind": "M&E Report",
+      "note": "Third cycle; 108 projects.",
+      "size": "3.0 MB"
+    },
+    {
+      "file": "07_ASCN_ME_Report_2025.pdf",
+      "title": "Monitoring & Evaluation Report 2025",
+      "year": 2025,
+      "kind": "M&E Report",
+      "note": "Latest cycle; 134 projects, the primary appendix source.",
+      "size": "3.1 MB"
+    },
+    {
+      "file": "08_ASCN_Planning_Guidebook.pdf",
+      "title": "ASEAN Smart City Planning Guidebook",
+      "year": 2021,
+      "kind": "Guidebook",
+      "note": "Japan-supported planning methodology for member cities.",
+      "size": "11.0 MB"
+    },
+    {
+      "file": "09_ASCN_Thailand_Chairmanship.pdf",
+      "title": "ASCN under Thailand's Chairmanship",
+      "year": 2019,
+      "kind": "Chairmanship",
+      "note": "Activities and outcomes of the Thai chair year.",
+      "size": "13.9 MB"
+    },
+    {
+      "file": "10_ASCN_Singapore_Chairmanship.pdf",
+      "title": "ASCN under Singapore's Chairmanship",
+      "year": 2018,
+      "kind": "Chairmanship",
+      "note": "Founding-year activities and shepherd handover.",
+      "size": "5.5 MB"
+    },
+    {
+      "file": "11_ASCN_Contact_List_2026.pdf",
+      "title": "ASCN Contact List 2026",
+      "year": 2026,
+      "kind": "Directory",
+      "note": "National focal points and city representatives.",
+      "size": "303 KB"
+    }
+  ],
+  "data_sources": [
+    {
+      "name": "ASCN M&E Reports",
+      "url": "https://asean.org/our-communities/asean-smart-cities-network/",
+      "type": "Official annual PDFs"
+    },
+    {
+      "name": "ASEANstats",
+      "url": "https://www.aseanstats.org",
+      "type": "Trade, demographics, economy"
+    },
+    {
+      "name": "World Bank Indicators",
+      "url": "https://data.worldbank.org",
+      "type": "16,000+ indicators (API)"
+    },
+    {
+      "name": "ADB Data Library",
+      "url": "https://data.adb.org",
+      "type": "287 datasets, 68 dashboards"
+    },
+    {
+      "name": "UN-Habitat",
+      "url": "https://unhabitat.org",
+      "type": "Urban indicators"
+    },
+    {
+      "name": "IMD Smart City Index",
+      "url": "https://www.imd.org/smart-city-observatory/smart-city-index/",
+      "type": "Ranking (9 ASEAN cities)"
+    },
+    {
+      "name": "IQAir / WAQI",
+      "url": "https://www.iqair.com/world-air-quality",
+      "type": "Air quality (free API)"
+    },
+    {
+      "name": "Ookla Speedtest",
+      "url": "https://www.speedtest.net/global-index",
+      "type": "Internet speed"
+    },
+    {
+      "name": "OpenStreetMap",
+      "url": "https://www.openstreetmap.org",
+      "type": "Crowdsourced maps"
+    }
+  ],
+  "city_open_data": {
+    "Singapore": "https://data.gov.sg",
+    "Jakarta": "https://satudata.jakarta.go.id",
+    "Bangkok": "https://data.bangkok.go.th",
+    "Kuala Lumpur": "https://data.gov.my"
+  }
+}

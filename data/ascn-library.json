@@ -1,0 +1,65 @@
+{
+  "meta": {
+    "note": "The evidence base behind this platform. Every source below was read and analyzed, not merely listed — each entry carries what we took from it. Official documents, Thailand's national corpus, and an independent 14-dimension research synthesis.",
+    "counts": { "primary_documents": 21, "research_dimensions": 14, "total_read": 36 }
+  },
+  "groups": [
+    {
+      "group": "Foundational mandate",
+      "items": [
+        { "title": "ASCN Concept Note", "source": "ASEAN", "year": 2018, "takeaway": "Establishes the network as a cooperative platform with three objectives — facilitate cooperation, catalyse bankable projects, secure external-partner funding. The 'people-first, technology-as-enabler' frame originates here.", "file": "01_ASCN_Concept_Note.pdf" },
+        { "title": "ASEAN Smart Cities Framework", "source": "ASEAN", "year": 2018, "takeaway": "The non-binding guide: three strategic outcomes, two urban systems, six focus areas, two enablers. Deliberately a guide, not a mandate — the structural reason ASCN coordinates rather than commands.", "file": "02_ASCN_Smart_Cities_Framework.pdf" },
+        { "title": "East Asia Summit Leaders' Statement on ASEAN Smart Cities", "source": "13th East Asia Summit, Singapore", "year": 2018, "takeaway": "Heads of State of ASEAN plus Australia, China, India, Japan, Korea, New Zealand, Russia and the US endorsed the network on 15 November 2018 — the political basis for the eight-partner cooperation ecosystem.", "file": null },
+        { "title": "Consolidated Smart City Action Plans (SCAPs)", "source": "ASEAN", "year": 2018, "takeaway": "The priority areas and action plans of the 26 pilot cities, self-defined by each city — the original source of the project portfolio and its uneven, locally-owned character.", "file": "03_ASCN_Consolidated_SCAPs.pdf" },
+        { "title": "ASCN Terms of Reference & M&E Framework — adoption", "source": "Post-event report, Bangkok (CentralWorld)", "year": 2019, "takeaway": "The 22–24 August 2019 meeting where the ASCN Terms of Reference and the Monitoring & Evaluation Framework were adopted — the procedural birth of the annual reporting cycle this platform reads.", "file": null }
+      ]
+    },
+    {
+      "group": "Monitoring & Evaluation cycle",
+      "items": [
+        { "title": "ASCN M&E Report 2022", "source": "ASEAN Secretariat", "year": 2022, "takeaway": "The baseline: a 77-project portfolio across the roster, the first consolidated read of network-wide implementation.", "file": "04_ASCN_ME_Report_2022.pdf" },
+        { "title": "ASCN M&E Report 2023", "source": "ASEAN Secretariat", "year": 2023, "takeaway": "Second cycle — roster and portfolio growth; investment framing sharpens under Indonesia's shepherdship.", "file": "05_ASCN_ME_Report_2023.pdf" },
+        { "title": "ASCN M&E Report 2024", "source": "ASEAN Secretariat", "year": 2024, "takeaway": "Portfolio reaches 108 projects; the financing toolkit and ASUF activity mature.", "file": "06_ASCN_ME_Report_2024.pdf" },
+        { "title": "ASCN M&E Report 2025 (as of 30 Sep 2025)", "source": "ASEAN Secretariat", "year": 2025, "takeaway": "134 projects, 81% ongoing — the primary appendix source for this platform's project database. Confirms the method counts projects, not outcomes.", "file": "07_ASCN_ME_Report_2025.pdf" }
+      ]
+    },
+    {
+      "group": "Chairmanship & national record",
+      "items": [
+        { "title": "ASCN under Singapore's Chairmanship", "source": "Singapore / ASCN", "year": 2018, "takeaway": "Founding-year activities and the handover into the Shepherd model — Singapore's institutional design for surviving annual chair rotation.", "file": "10_ASCN_Singapore_Chairmanship.pdf" },
+        { "title": "ASCN 2019: Advancing Partnership for Sustainability", "source": "DEPA / Ministry of Digital Economy and Society, Thailand", "year": 2019, "takeaway": "Thailand's chairmanship-year report, edited by DEPA leadership — the clearest record of Thailand's organising role and the partnership-for-sustainability theme.", "file": "09_ASCN_Thailand_Chairmanship.pdf" },
+        { "title": "ASCN 2019 Report (rev.02)", "source": "DEPA, Thailand", "year": 2020, "takeaway": "The detailed editorial record of the Thai chair year — confirms Thailand's early, hands-on stewardship of the network's operational machinery.", "file": null },
+        { "title": "Cabinet Resolution on the ASCN Progress Report", "source": "Cabinet of Thailand (มติ ครม. 29 ต.ค. 2562)", "year": 2019, "takeaway": "ASCN reporting reached Thailand's Cabinet on 29 October 2019 — evidence the network was treated as national policy, not a side initiative.", "file": null }
+      ]
+    },
+    {
+      "group": "Planning methodology",
+      "items": [
+        { "title": "ASEAN Smart City Planning Guidebook", "source": "ASEAN / Japan (MLIT) support", "year": 2021, "takeaway": "The shared planning methodology offered to member cities — useful, but a single template applied across radically different cities, which is exactly where local judgement has to take over.", "file": "08_ASCN_Planning_Guidebook.pdf" },
+        { "title": "MLIT ASEAN Smart City Planning Guidebook (Draft Final)", "source": "MLIT, Japan", "year": 2020, "takeaway": "Japan's draft methodology submitted for ASCN consideration — a case study in how a partner's framework becomes regional practice, and why it needs local adaptation rather than wholesale adoption.", "file": null }
+      ]
+    },
+    {
+      "group": "Thailand's national corpus",
+      "items": [
+        { "title": "Smart City Handbook: Thailand", "source": "DEPA, Thailand", "year": 2021, "takeaway": "DEPA's national playbook — the most developed of any ASCN member, including the Thai Smart City Index that already does the outcome-level measurement the regional M&E lacks.", "file": null },
+        { "title": "Smart City Week 2020 — Proceedings (EN)", "source": "Smart City Thailand Office / DEPA", "year": 2020, "takeaway": "Thailand's flagship convening of regional smart-city practice — demonstrates a model built on open exchange and showcase rather than vendor lock-in.", "file": null },
+        { "title": "Smart City Week 2020 — Proceedings (TH)", "source": "Smart City Thailand Office / DEPA", "year": 2020, "takeaway": "The Thai-language edition — evidence the work is built for its own public first, in its own language, not translated in from outside.", "file": null }
+      ]
+    },
+    {
+      "group": "Directory & administration",
+      "items": [
+        { "title": "ASCN Contact List (as of 31 Jan 2026)", "source": "ASEAN Secretariat", "year": 2026, "takeaway": "National focal points and city representatives across all 38 cities — the human network behind the roster (personal details withheld from this public platform).", "file": "11_ASCN_Contact_List_2026.pdf" },
+        { "title": "ASCN Representative / Ambassador details", "source": "ASCN", "year": 2026, "takeaway": "The designated city-level representatives — confirming who actually carries each city's participation between annual meetings.", "file": null }
+      ]
+    },
+    {
+      "group": "Independent research synthesis (this platform's own analysis)",
+      "items": [
+        { "title": "ASCN Comprehensive Research Brief", "source": "14-dimension deep-research, 500+ citations", "year": 2025, "takeaway": "The synthesis spine: governance, projects, partnerships, financing, M&E, technology, transport, environment, academic critique, comparison, private sector, citizen impact, future outlook, and data sources — distilled into the data layer you are reading." },
+        { "title": "14 research dimensions + cross-verification + insight notes", "source": "Multi-agent research", "year": 2025, "takeaway": "Each dimension independently investigated and cross-verified, then reconciled against the official record — the working papers behind every claim on this site, available on request." }
+      ]
+    }
+  ]
+}

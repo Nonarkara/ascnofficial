@@ -3,299 +3,245 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Smart City Thailand Tech Hunt Directory</title>
-    <meta
-      name="description"
-      content="A modernist directory of 160 smart city solutions with seven smart domains, website links, partner logos, and live news feeds."
-    />
-    <link rel="stylesheet" href="styles.css" />
+    <title>ASCN — ASEAN Smart Cities Network · Performance Review</title>
+    <meta name="description" content="The first public platform to ask — with data — how the ASEAN Smart Cities Network is performing. 38 cities, 134 projects, 10 annual reports synthesized and laid open. Built by Thailand's ASCN representative since 2019." />
+    <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
+    <link rel="stylesheet" href="styles.css?v=33" />
   </head>
   <body>
-    <div class="page-shell">
-      <header class="site-topbar">
-        <a class="site-brand" href="index.html">
-          <span>ASEAN Smart Cities</span>
-          <strong>Thailand Program Hub</strong>
-        </a>
-        <nav class="site-links" aria-label="Site pages">
-          <a class="is-active" href="index.html">Overview</a>
-          <a href="library.html">Library</a>
-          <a href="resources.html">Resources</a>
-          <a href="network-news.html">Network News</a>
-        </nav>
-      </header>
-
-      <header class="hero-grid">
-        <div class="hero-index">
-          <p class="kicker">Source To System</p>
-          <p class="index-code">SC-TH-2026</p>
-        </div>
-
-        <div class="hero-core">
-          <p id="hero-kicker" class="kicker">Smart City Thailand Tech Hunt</p>
-          <h1 id="hero-title">160 solutions across the 7 smart domains.</h1>
-          <p id="hero-copy" class="hero-copy">
-            A searchable directory built from the source <span id="source-file-inline">report file</span>,
-            with verified websites where available, clear search routes for the rest, and live
-            news delivered through local API endpoints.
-          </p>
-
-          <div class="brand-band">
-            <figure class="brand-card is-primary">
-              <img src="public/OIP-1992967603.jpg" alt="DEPA logo" />
-              <figcaption id="brand-depa">depa</figcaption>
-            </figure>
-            <figure class="brand-card">
-              <img src="public/slicthailand_logo-242068458.jpg" alt="SLIC Thailand logo" />
-              <figcaption id="brand-slic">SLIC Thailand</figcaption>
-            </figure>
-            <figure class="brand-card">
-              <img src="public/OIP-357011249.jpg" alt="UWN logo" />
-              <figcaption id="brand-uwn">UWN</figcaption>
-            </figure>
-            <figure class="brand-card">
-              <img src="public/OIP-4109938207.jpg" alt="KMITL logo" />
-              <figcaption id="brand-kmitl">KMITL</figcaption>
-            </figure>
-          </div>
-        </div>
-
-        <div class="hero-aside">
-          <label class="select-field language-field">
-            <span id="language-label">Language</span>
-            <select id="language-select">
-              <option value="en">English</option>
-              <option value="id">Bahasa Indonesia</option>
-              <option value="th">ไทย</option>
-              <option value="zh">中文</option>
-              <option value="km">ខ្មែរ</option>
-              <option value="vi">Tiếng Việt</option>
-            </select>
-          </label>
-          <p id="metrics-kicker" class="kicker">Directory Metrics</p>
-          <div id="hero-metrics" class="hero-metrics"></div>
-        </div>
-      </header>
-
-      <nav class="nav-strip" aria-label="Quick navigation">
-        <a href="#relationships-section">Relationships</a>
-        <a id="nav-news" href="#news-section">Latest</a>
-        <a id="nav-pulse" href="#pulse-section">Pulse</a>
-        <a id="nav-directory" href="#directory-section">Directory</a>
-        <a id="nav-about" href="#about-section">About</a>
+    <header class="site-nav">
+      <a class="brand" href="#overview" data-tab="overview">
+        <img src="logos/asean.png" alt="ASEAN" class="brand-mark" />
+        <span>ASCN<i>Performance Review</i></span>
+      </a>
+      <nav aria-label="Primary" id="tab-nav">
+        <a href="#overview" data-tab="overview">Overview</a>
+        <a href="#history" data-tab="history">History</a>
+        <a href="#cities" data-tab="cities">Cities</a>
+        <a href="#projects" data-tab="projects">Projects</a>
+        <a href="#framework" data-tab="framework">Framework</a>
+        <a href="#partners" data-tab="partners">Partners</a>
       </nav>
+    </header>
 
-      <section id="about-section" class="notes-grid">
-        <article class="note-panel note-panel-wide">
-          <p id="origin-kicker" class="kicker">Built By Dr Non</p>
-          <h2 id="origin-title">Put together by me, Dr Non from depa, with partner collaboration.</h2>
-          <p id="origin-copy" class="note-copy">
-            I put this directory together to turn the original report into a usable public index.
-            It is possible thanks to the collaboration with the partner organizations shown above.
-          </p>
-        </article>
-
-        <article class="note-panel">
-          <p id="usage-kicker" class="kicker">Open Use</p>
-          <p id="usage-copy" class="note-copy">
-            Anyone can use and reuse this directory as an open reference for scanning solutions,
-            exploring providers, and understanding the current landscape.
-          </p>
-        </article>
-
-      </section>
-
-      <section id="relationships-section" class="relationship-section">
-        <div class="relationship-copy">
-          <p class="kicker">City-To-City Learning</p>
-          <h2>Peer relationships are the core asset behind the program.</h2>
-          <p>
-            This network is built through mayoral exchanges, workshops, and pilot collaboration
-            across ASEAN cities. The images below document real implementation moments and
-            institutional trust in action.
-          </p>
-        </div>
-
-        <div class="relationship-gallery">
-          <figure class="relationship-card relationship-card-wide">
-            <img src="public/photos/WeG0-ASCN_2019_MAYORAL_CONFERENCE_057.jpg" alt="ASEAN city leaders and delegates in conference session" loading="lazy" />
-            <figcaption>Mayoral conference and city network convening</figcaption>
-          </figure>
-          <figure class="relationship-card">
-            <img src="public/photos/2018-11-21 08.27.18.jpg" alt="Workshop presentation and city collaboration session" loading="lazy" />
-            <figcaption>Technical workshop and policy dialogue</figcaption>
-          </figure>
-          <figure class="relationship-card">
-            <img src="public/photos/WeG0-ASCN_2019_MAYORAL_CONFERENCE_168.jpg" alt="ASEAN Smart City project showcase stage" loading="lazy" />
-            <figcaption>Project showcase and partner engagement</figcaption>
-          </figure>
-          <figure class="relationship-card">
-            <img src="public/photos/DSC_9787.JPG" alt="Delegates in city program event" loading="lazy" />
-            <figcaption>Field-level collaboration and exchange</figcaption>
-          </figure>
-          <figure class="relationship-card">
-            <img src="public/photos/AFS_2670.JPG" alt="Group photo of participants in smart city program" loading="lazy" />
-            <figcaption>Regional trust-building and multi-city teamwork</figcaption>
-          </figure>
-        </div>
-      </section>
-
-      <section id="news-section" class="news-grid">
-        <article class="news-panel">
-          <div class="news-head">
-            <div>
-              <p id="startup-news-kicker" class="kicker">Live News API</p>
-              <h2 id="startup-news-title">Startup signal</h2>
-            </div>
-            <span id="news-status" class="news-status">Waiting for server</span>
-          </div>
-          <div id="startup-news" class="news-list"></div>
-        </article>
-
-        <article class="news-panel">
-          <div class="news-head">
-            <div>
-              <p id="government-news-kicker" class="kicker">Live News API</p>
-              <h2 id="government-news-title">Government work</h2>
-            </div>
-          </div>
-          <div id="government-news" class="news-list"></div>
-        </article>
-      </section>
-
-      <section id="pulse-section" class="pulse-section">
-        <article class="pulse-brief">
-          <div class="pulse-brief-head">
-            <div>
-              <p id="pulse-kicker" class="kicker">Thailand Live Pulse</p>
-              <h2 id="pulse-title">A more playful live view of city conditions across Thailand.</h2>
-            </div>
-            <span id="pulse-status" class="pulse-status">Waiting for live data</span>
-          </div>
-
-          <p id="pulse-copy" class="pulse-copy">
-            Toggle live map layers, compare anchor cities, and show how operational data can sit
-            next to the startup directory instead of feeling like a static report.
-          </p>
-
-          <div id="pulse-kpis" class="pulse-kpis"></div>
-
-          <div class="pulse-control-grid">
-            <section class="pulse-control-block">
-              <p id="pulse-layer-title" class="kicker">Layers</p>
-              <div id="pulse-layers" class="pulse-layer-list"></div>
-            </section>
-
-            <section class="pulse-control-block">
-              <p id="pulse-city-title" class="kicker">City Signals</p>
-              <div id="pulse-city-list" class="pulse-city-list"></div>
-            </section>
-
-            <section class="pulse-control-block">
-              <p id="pulse-feed-title" class="kicker">Activity Feed</p>
-              <div id="pulse-feed" class="pulse-feed"></div>
-            </section>
-          </div>
-        </article>
-
-        <article class="pulse-map-panel">
-          <div class="pulse-map-head">
-            <div>
-              <p id="pulse-map-kicker" class="kicker">Live Map</p>
-              <h2 id="pulse-map-title">Thailand conditions in one view.</h2>
-            </div>
-            <div id="pulse-map-summary" class="pulse-map-summary"></div>
-          </div>
-
-          <div class="pulse-map-shell">
-            <div class="pulse-map-glow pulse-map-glow-a"></div>
-            <div class="pulse-map-glow pulse-map-glow-b"></div>
-            <svg
-              id="pulse-map"
-              class="pulse-map"
-              viewBox="0 0 1000 720"
-              role="img"
-              aria-label="Thailand live pulse map"
-            ></svg>
-            <div id="pulse-map-legend" class="pulse-legend"></div>
-          </div>
-        </article>
-      </section>
-
-      <main id="directory-section" class="layout-frame">
-        <aside class="rail-panel">
-          <section class="rail-block">
-            <p id="domains-kicker" class="kicker">7 Smart Domains</p>
-            <div id="domain-filters" class="domain-filters"></div>
-          </section>
-
-          <section class="rail-block">
-            <p id="timeline-kicker" class="kicker">Program Sequence</p>
-            <div id="timeline" class="timeline"></div>
-          </section>
-
-          <section class="rail-block">
-            <p id="mou-kicker" class="kicker">Signed MOUs</p>
-            <div id="mou-list" class="mou-list"></div>
-          </section>
-        </aside>
-
-        <section class="main-panel">
-          <div class="toolbar">
-            <label class="search-field">
-              <span id="search-label">Search</span>
-              <input
-                id="search-input"
-                type="search"
-                placeholder="Search by solution, company, or capability"
-                autocomplete="off"
-              />
-            </label>
-
-            <div class="toolbar-actions">
-              <label class="select-field">
-                <span id="domain-select-label">7 Smart Domain</span>
-                <select id="domain-select"></select>
-              </label>
-
-              <label class="select-field">
-                <span id="sort-label">Sort</span>
-                <select id="sort-select">
-                  <option value="curated">Curated Order</option>
-                  <option value="name">Solution A-Z</option>
-                  <option value="organization">Organization A-Z</option>
-                  <option value="verified">Verified Sites First</option>
-                </select>
-              </label>
-
-              <button id="reset-button" class="reset-button" type="button">Reset</button>
-            </div>
-          </div>
-
-          <div id="active-state" class="active-state"></div>
-          <div id="signal-strip" class="signal-strip"></div>
-          <div id="results-meta" class="results-meta"></div>
-          <div id="results-grid" class="results-grid"></div>
-        </section>
-
-        <aside class="detail-panel">
-          <div class="detail-frame">
-            <p id="detail-kicker" class="kicker">Selected Entry</p>
-            <div id="detail-body" class="detail-body"></div>
-          </div>
-        </aside>
-      </main>
-
-      <footer class="footer-note">
-        <p id="footer-copy">
-          Open reference directory. Reuse is welcome. Please verify any external website, news item,
-          or vendor claim before formal procurement or policy decisions.
-        </p>
-      </footer>
+    <div class="site-notice">
+      Built by <strong>Non Arkaraprasertkul</strong> — Senior Expert, Smart City Promotion, DEPA · ASCN staff contact since 2019.
+      &nbsp;·&nbsp; Official site: <a href="https://ascn.depa.or.th" target="_blank" rel="noopener">ascn.depa.or.th</a>
     </div>
 
-    <script src="data.js"></script>
-    <script src="app.js"></script>
-    <script src="live-pulse.js"></script>
+    <main>
+      <!-- OVERVIEW -->
+      <section class="view" id="view-overview" data-view="overview">
+        <div class="hero">
+          <div class="hero-text">
+            <p class="label">ASEAN Smart Cities Network</p>
+            <h1>38 cities.<br />134 projects.<br />How is it performing?</h1>
+            <p class="lede">134 projects tracked since 2018. Not one public platform has asked how the network is performing against its own goals. This one does.</p>
+            <div class="hero-cta">
+              <a class="text-button" href="#cities" data-tab="cities">Explore the cities</a>
+              <a class="text-button" href="#data" data-tab="data">Open data</a>
+            </div>
+          </div>
+          <figure class="hero-photo">
+            <img src="Photos/AFS_2670.JPG" alt="ASCN 8 Opening Ceremony, Malaysia 2025" />
+            <figcaption>ASCN 8 Opening Ceremony — Kuala Lumpur, Malaysia · 2025</figcaption>
+          </figure>
+        </div>
+
+        <div class="kpi-grid" id="kpi-grid" aria-label="Network key metrics"></div>
+
+        <div class="overview-grid">
+          <article class="gap-panel">
+            <p class="label">Why this platform exists</p>
+            <h2 id="gap-headline"></h2>
+            <p class="lede" id="gap-body"></p>
+            <div class="source-note"><strong>Evidence base</strong><span id="evidence-status">Loading official report dataset…</span></div>
+          </article>
+          <aside class="glance-panel">
+            <p class="label">At a glance</p>
+            <div id="focus-mini" class="focus-mini"></div>
+            <div class="glance-note" id="glance-note"></div>
+          </aside>
+        </div>
+
+        <article class="perspective" id="perspective" aria-label="Perspective"></article>
+      </section>
+
+      <!-- HISTORY -->
+      <section class="view" id="view-history" data-view="history" hidden>
+        <div class="section-head">
+          <p class="label">History</p>
+          <h2>From 26 pilot cities to a regional network</h2>
+          <p class="lede">Established at the 32nd ASEAN Summit in April 2018, the network has grown across eight chair years and five rounds of expansion.</p>
+        </div>
+        <div class="history-grid">
+          <div class="timeline-rail" id="history-timeline"></div>
+          <aside class="history-side">
+            <article class="side-block">
+              <p class="label">Membership growth</p>
+              <div id="growth-bars" class="growth-bars"></div>
+            </article>
+            <article class="side-block">
+              <p class="label">Chair &amp; Shepherd</p>
+              <div id="chair-roster" class="chair-roster"></div>
+            </article>
+          </aside>
+        </div>
+        <div id="history-quote" class="history-quote"></div>
+        <div class="sub-head"><p class="label">The network in the field</p><h3>Seven years of meetings, partnerships, and knowledge exchange</h3></div>
+        <div id="history-moments" class="moments-strip"></div>
+        <div class="sub-head"><p class="label">Annual meetings</p><h3>The ASCN Annual Meeting cycle</h3></div>
+        <div id="meetings-grid" class="meetings-grid"></div>
+        <article class="ascap-panel" id="ascap-panel"></article>
+      </section>
+
+      <!-- CITIES -->
+      <section class="view" id="view-cities" data-view="cities" hidden>
+        <div class="section-head split">
+          <div>
+            <p class="label">Member Cities</p>
+            <h2>38 cities, 11 countries — and what each is building</h2>
+            <div class="cities-related">
+              <a href="https://slic.nonarkara.org/" target="_blank" rel="noopener" class="cities-rel-link">
+                <span class="cities-rel-label">SLIC Index</span>
+                <span class="cities-rel-desc">Southeast Asia's city liveability and competitiveness index — 174 cities ranked across 5 pillars</span>
+              </a>
+              <a href="https://sciti.nonarkara.org/" target="_blank" rel="noopener" class="cities-rel-link">
+                <span class="cities-rel-label">SCITI Index</span>
+                <span class="cities-rel-desc">Smart City Thailand Index — tracking Thailand's 30 smart city candidates against the global frontier</span>
+              </a>
+            </div>
+          </div>
+          <div class="controls">
+            <input id="city-search" type="search" placeholder="Search a city" aria-label="Search a city" />
+            <select id="city-country" aria-label="Filter by country"><option value="all">All countries</option></select>
+            <div class="segmented" id="map-mode">
+              <button type="button" class="active" data-mode="map">Map</button>
+              <button type="button" data-mode="night">Night</button>
+            </div>
+          </div>
+        </div>
+        <div class="cities-layout">
+          <div class="map-col">
+            <div id="sea-map" class="sea-map"></div>
+            <p class="map-legend" id="map-legend"></p>
+          </div>
+          <div class="city-detail" id="city-detail"></div>
+        </div>
+        <div class="city-cards" id="city-cards"></div>
+      </section>
+
+      <!-- PROJECTS -->
+      <section class="view" id="view-projects" data-view="projects" hidden>
+        <div class="section-head split">
+          <div>
+            <p class="label">Projects</p>
+            <h2>The smart-city project portfolio</h2>
+          </div>
+          <div class="controls">
+            <input id="search-filter" type="search" placeholder="Search projects" aria-label="Search projects" />
+            <select id="country-filter" aria-label="Filter by country"><option value="all">All countries</option></select>
+            <select id="focus-filter" aria-label="Filter by focus area"><option value="all">All focus areas</option></select>
+            <button id="export-csv" class="text-button" type="button">Export CSV</button>
+          </div>
+        </div>
+        <div class="kpi-grid kpi-grid--four" id="project-kpis"></div>
+        <div class="analytics-grid">
+          <article class="chart-panel">
+            <div class="panel-head"><h3>Focus-area mix</h3><span class="muted">latest cycle</span></div>
+            <div id="focus-bars" class="focus-bars"></div>
+          </article>
+          <article class="chart-panel">
+            <div class="panel-head"><h3>Implementation status</h3><span class="muted" id="status-count"></span></div>
+            <div id="status-bars" class="stack-bars"></div>
+          </article>
+          <article class="chart-panel">
+            <div class="panel-head"><h3>Top cities by project load</h3><span class="muted">filtered</span></div>
+            <div id="city-load" class="city-load"></div>
+          </article>
+        </div>
+        <article class="table-panel">
+          <div class="panel-head"><h3>Project evidence table</h3><span id="project-count" class="muted"></span></div>
+          <div class="table-wrap">
+            <table>
+              <thead><tr><th>City</th><th>Country</th><th>Project</th><th>Focus</th><th>Status</th></tr></thead>
+              <tbody id="project-table"></tbody>
+            </table>
+          </div>
+        </article>
+        <div class="sub-head"><p class="label">Flagship investments</p><h3>Largest documented projects by investment</h3></div>
+        <div id="big-projects" class="big-projects"></div>
+      </section>
+
+      <!-- FRAMEWORK / BY-LAWS -->
+      <section class="view" id="view-framework" data-view="framework" hidden>
+        <div class="section-head">
+          <p class="label">Framework &amp; By-laws</p>
+          <h2>The ASEAN Smart Cities Framework</h2>
+          <p class="lede" id="framework-status"></p>
+        </div>
+        <div class="framework-grid">
+          <article class="fw-block" id="fw-outcomes"></article>
+          <article class="fw-block" id="fw-systems"></article>
+          <article class="fw-block" id="fw-enablers"></article>
+        </div>
+        <div class="sub-head"><p class="label">Six focus areas</p><h3>Where the work is concentrated</h3></div>
+        <div id="focus-detail" class="focus-detail"></div>
+        <div class="sub-head"><p class="label">Governance</p><h3>How the network is run</h3></div>
+        <div class="gov-grid" id="gov-grid"></div>
+        <article class="ascap-panel" id="framework-ascap"></article>
+      </section>
+
+      <!-- PARTNERS -->
+      <section class="view" id="view-partners" data-view="partners" hidden>
+        <div class="section-head">
+          <p class="label">Partnerships &amp; Finance</p>
+          <h2>A multi-stakeholder ecosystem</h2>
+          <p class="lede">ASCN coordinates rather than funds. Bilateral partners, multilateral banks, and blended finance carry the projects.</p>
+        </div>
+        <div class="sub-head"><p class="label">Dialogue partners</p><h3>Major bilateral programmes</h3></div>
+        <div id="partner-cards" class="partner-cards"></div>
+        <div class="partners-split">
+          <article class="side-block">
+            <p class="label">Multilateral partners</p>
+            <div id="multi-list" class="def-list"></div>
+          </article>
+          <article class="side-block">
+            <p class="label">Financing landscape</p>
+            <div id="finance-block"></div>
+          </article>
+        </div>
+        <div class="sub-head"><p class="label">Programme networks</p><h3>Bilateral smart city cooperation with ASCN</h3></div>
+        <div id="programme-networks" class="programme-cards"></div>
+
+        <div class="sub-head"><p class="label">Resource · Aus4ASEAN Futures</p><h3>ASEAN Smart City Financing Toolkit</h3></div>
+        <div id="toolkit-feature"></div>
+
+        <div class="sub-head"><p class="label">Event · Jakarta · 26–27 November 2024</p><h3>Advancing Smart Cities across ASEAN and Beyond</h3></div>
+        <div id="workshop-section"></div>
+
+      </section>
+
+    </main>
+
+    <footer class="site-footer">
+      <div class="footer-content">
+        <p>This platform is developed by the <strong>Digital Economy Promotion Agency (DEPA)</strong> and the <strong>Smart City Thailand Office</strong>, under the Ministry of Digital Economy and Society of Thailand — a contribution to the ASEAN Smart Cities Network.</p>
+        <p>A space to share, learn, and build. The data behind it is synthesized from official ASEAN documents and released as open data for everyone.</p>
+        <div class="footer-logos">
+          <img src="logos/depa.png" alt="Digital Economy Promotion Agency (DEPA)" />
+          <img src="logos/mdes.png" alt="Ministry of Digital Economy and Society" />
+          <img src="logos/smart-city-thailand.svg" alt="Smart City Thailand Office" />
+        </div>
+        <p class="footer-fine">Built from ASEAN source documents. Public information only. Not an official ASEAN publication.</p>
+      </div>
+    </footer>
+
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+    <script src="app.js?v=33"></script>
   </body>
 </html>
