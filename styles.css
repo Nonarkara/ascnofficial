@@ -467,6 +467,14 @@ td { color: var(--ink-2); font-size: 0.82rem; }
 .footer-logos { display: flex; align-items: center; gap: 0.8rem; }
 .footer-logos img { width: auto; max-width: 7rem; max-height: 2.4rem; }
 .footer-fine { grid-column: 1 / -1; color: var(--muted); font-size: 0.75rem; }
+.footer-pdpa { grid-column: 1 / -1; border-top: 1px solid var(--line-soft); padding-top: 1rem; margin-top: 0.5rem; }
+.footer-pdpa summary { cursor: pointer; font-size: 0.72rem; font-weight: 800; letter-spacing: 0.08em; text-transform: uppercase; color: var(--muted); user-select: none; }
+.footer-pdpa summary:hover { color: var(--ink-2); }
+.footer-pdpa p { font-size: 0.78rem; color: var(--muted); line-height: 1.7; margin: 0.6rem 0 0; max-width: 680px; }
+.footer-pdpa a { color: var(--ink-2); }
+.footer-collab-label { grid-column: 1 / -1; margin-top: 1rem; }
+.footer-logos--collab { grid-column: 1 / -1; }
+.footer-logos--collab img { max-height: 2rem; }
 
 button:focus-visible, a:focus-visible, select:focus-visible, input:focus-visible {
   outline: 2px solid rgba(24, 58, 90, 0.4);
