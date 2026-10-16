@@ -8,8 +8,8 @@
    ============================================================ */
 
 const tileLayers = {
-  map: { url: "https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png", attr: "&copy; OpenStreetMap &copy; CARTO" },
-  night: { url: "https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png", attr: "&copy; OpenStreetMap &copy; CARTO" },
+  map: { url: "https://tile.openstreetmap.org/{z}/{x}/{y}.png", attr: "&copy; <a href='https://www.openstreetmap.org/copyright'>OpenStreetMap</a> contributors" },
+  night: { url: "https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Dark_Gray_Base/MapServer/tile/{z}/{y}/{x}", attr: "&copy; Esri, HERE, Garmin &middot; &copy; <a href='https://www.openstreetmap.org/copyright'>OpenStreetMap</a> contributors" },
 };
 
 const TABS = ["overview", "history", "cities", "projects", "framework", "partners"];
